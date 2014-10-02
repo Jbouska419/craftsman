@@ -1,0 +1,293 @@
+.home-carousel{
+	.carousel;
+	.bg-margin-long(0, 2rem, 2rem, 2rem);
+	background: url('../../../images/container_bg.png') repeat;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	.carousel-indicators{
+		.carousel-indicators;
+	}
+	.carousel-inner{
+		.carousel-inner;
+	}
+	.carousel-caption{
+		.carousel-caption;
+	}
+	#slide1{
+		h1{
+			.bg-font(1.25rem, #FFF, "Times", bold, center, 0.4);
+		}
+	}
+	#slide2{
+		h1{
+			.bg-font(1.25rem, #FFF, "Times", bold, center, 0.4);
+		}
+	}
+	#slide3{
+		h1{
+			.bg-font(1.25rem, #FFF, "Times", bold, center, 0.4);
+		}
+	}
+	.carousel-control{
+		.carousel-control;
+	}
+	.glyphicon{
+		.glyphicon;
+	}
+
+	.glyphicon-chevron-left{
+		.glyphicon-chevron-left;
+	}
+
+	.glyphicon-chevron-right{
+		.glyphicon-chevron-right;
+	}
+}
+
+.home-heading{
+	.bg-font-size(1.50rem, 0.2);
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #9e0000;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:bold;
+	text-align: center;
+}
+
+.home-box(@bg-color){
+	background-color: @bg-color;
+	border-radius: 1rem;
+	border-color: #640000;
+	border-width: 1rem;
+	border-style: solid;
+}
+
+#our-vision{
+	.make-row();
+	margin-left: 0;
+	margin-right: 0;
+	#left{
+		.make-sm-column(6);
+		.bg-padding-long(1rem, 1rem, 1rem, 1rem);
+		#inner{
+			.bg-media-manual(height, 100px, 110px, 120px, 130px, 180px, 300px, 330px, 400px, 470px);
+			.home-box(#9e0000);
+			#content{
+				.bg-media-manual(top, 16px, 19px, 16px, 14px, 4px, 25px, 44px, 80px, 100px);
+				position:relative;
+				text-align: center;
+				h1{
+					.bg-font-size(2rem, 0.166);
+					margin-bottom: 0;
+					margin-top: 0;
+					color: #FFF;
+					font-weight:bold;
+					font-family: "Times New Roman", Times, serif;
+				}
+				p{
+					.bg-font-size(1rem, 0.144);
+					padding-left: 1rem;
+					padding-right: 1rem;
+					color: #FFF;
+					font-family: "Times New Roman", Times, serif;
+				}
+			}			
+		}
+	}
+	#right{
+		.make-sm-column(6);
+		.bg-padding-long(1rem, 1rem, 1rem, 1rem);
+		#inner{
+			.bg-media-manual(height, 100px, 110px, 120px, 130px, 180px, 300px, 330px, 400px, 470px);
+			.bg-padding-long(1rem, 1rem, 1rem, 1rem);
+			background: url('../../../images/home_our_vision.jpg') no-repeat 100% 100%;
+			border-radius: 1rem;
+			text-align: center;
+			p{
+				.bg-font-size(1rem, 0.1234);
+				.bg-media-manual(top, 16px, 24px, 16px, 19px, 3px, 19px, 21px, 80px, 100px);
+				position: relative;
+				color: #FFF;
+				font-family:"Times New Roman", Times, serif;
+			}
+		}
+	}
+}
+
+#reviews-mission-shopnow-height{
+	.bg-media-manual(height, 100%, 100%, 100%, 100%, 500px, 525px, 100%, 500px, 600px);
+}
+
+
+#reviews-mission-shopnow-heading{
+	.bg-media-manual(font-size, 3rem, 4rem, 4rem, 4rem, 3.25rem, 3.25rem, 4rem, 4rem, 5rem);
+	.bg-media-manual(margin-bottom, 1rem, 0, 0, 0, 0, 0.5rem, 0, 0, 0);
+	.bg-media-manual(margin-top, 1rem, 0, 0, 0, 0, 1rem, 0, 0, 0);
+	color: #9e0000;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:bold;
+}
+
+#reviews-mission-shopwnow-btn{
+	.bg-media-manual(margin-bottom, 2rem, 2rem, 2rem, 2rem, 2rem, 2rem, 2rem, 2rem, 2rem);
+	.bg-media-manual(font-size, 1.5rem, 1.5rem, 2rem, 2rem, 1.25rem, 1.25rem, 2rem, 2rem, 2rem);
+	background-color: #9e0000;
+	border-color: #640000;
+}
+
+#reviews-mission-shopnow{
+	.make-row();
+	margin-left: 0;
+	margin-right: 0;
+	#left{
+		.make-sm-column(4);
+		margin-bottom: 1rem;
+		#content{
+			#reviews-mission-shopnow-height();
+			.home-box(transparent);
+			text-align:center;
+			#text{
+				h2{
+					#reviews-mission-shopnow-heading();
+				}
+				img{
+					.center-block;
+					.bg-media-manual(width, 50%, 50%, 50%, 50%, 50%, 50%, 50%, 50%, 50%);
+					.bg-media-manual(height, 30%, 37%, 30%, 30%, 30%, 10%, 30%, 30%, 30%);
+				}
+				p{
+					.bg-media-manual(font-size, 1.5rem, 1.5rem, 2rem, 2rem, 2rem, 2rem, 2rem, 2rem, 2.65rem);
+					.bg-padding-long(1rem, 1rem, 1rem, 1rem);
+					font-weight: bold;
+					small{
+						.bg-media-manual(font-size, 1rem, 1.5rem, 2rem, 2rem, 2rem, 2rem, 2rem, 2rem, 1.65rem);
+						font-style: italic;
+					}
+				}
+				.btn-primary{
+					#reviews-mission-shopwnow-btn;
+				}
+			}
+		}
+	}
+	#middle{
+		.make-sm-column(4);
+		margin-bottom: 1rem;
+		#content{
+			#reviews-mission-shopnow-height();
+			.home-box(transparent);
+			text-align: center;
+			#text{
+				h2{
+					#reviews-mission-shopnow-heading();
+				}
+				p{
+					.bg-media-manual(font-size, 1.5rem, 1.5rem, 2rem, 2rem, 2rem, 1.75rem, 2rem, 2rem, 2.65rem);
+					.bg-padding-long(1rem, 1rem, 1rem, 1rem);
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	#right{
+		.make-sm-column(4);
+		margin-bottom: 1rem;
+		#content{
+			#reviews-mission-shopnow-height();
+			.home-box(transparent);
+			#text{
+				text-align:center;
+				h2{
+					#reviews-mission-shopnow-heading();
+				}
+				img{
+					.center-block;
+					.bg-media-manual(width, 30%, 50%, 25%, 20%, 50%, 75%, 50%, 50%, 50%);
+					.bg-media-manual(height, 23%, 37%, 25%, 20%, 35%, 31%, 35%, 35%, 35%);
+					margin-top: 1rem;
+					margin-bottom: 1rem;
+				}
+				.btn-primary{
+					#reviews-mission-shopwnow-btn;
+				}
+			}
+		}
+	}
+}
+
+#our-values{
+	.make-row();
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 1rem;
+	#left{
+		.make-sm-column(8);
+		#content{
+			.home-box(#9e0000);
+			text-align:center;
+			h3{
+				.bg-media-manual(margin-top, 1rem, 2rem, 2rem, 0, 0, 2rem, 2rem, 2rem, 2rem);
+				.bg-media-manual(margin-bottom, 1rem, 2rem, 2rem, 0, 0, 2rem, 2rem, 2rem, 2rem);
+				.bg-media-manual(font-size, 1rem, 2rem, 2rem, 4rem, 3rem, 1.85rem, 2rem, 2rem, 2rem);
+				color: #FFF;
+			}
+			h4{
+				.bg-font-size(1.25rem, 0.05);
+				color: #FFF;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			p{
+				.bg-font-size(1.10rem, 0.03);
+				margin-bottom: 1rem;
+				margin-top: 1rem;
+				color: #CCC;
+				font-weight:bold;
+			}
+		}
+	}
+	#right{
+		.make-sm-column(4);
+		text-align: center;
+		img{
+			.center-block;
+			.img-responsive;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
+		p{
+			.bg-media-manual(font-size, 1rem, 2rem, 2rem, 2rem, 1.70rem, 1.85rem, 2rem, 2rem, 2rem);
+			font-weight:bold;
+		}
+		.newsletter{
+			.center-block;
+			.bg-padding-long(1rem, 1rem, 1rem, 1rem);
+			.inner{
+				background-color: #9e0000;
+				border-radius: 1rem;
+				border-color: #640000;
+				border-width: 0.5rem;
+				border-style:solid;
+				text-align: center;
+				span{
+					.bg-font-size(1.25rem, 0.125);
+					.bg-top(0px, -0.3);
+					color: #FFF;
+					position: relative;
+					display: inline-block;
+					font-family:"Times New Roman", Times, serif;
+					line-height: 1;
+				}
+				.envelope{
+					.glyphicon;
+					.glyphicon-envelope;
+					.bg-font-size(1.25rem, 0.125);
+					.bg-top(3px, -0.01);
+					.bg-left(-1px, 0.1);
+					color: #FFF;
+				}
+			}
+		}
+	}
+}

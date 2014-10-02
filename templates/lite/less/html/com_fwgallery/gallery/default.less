@@ -1,0 +1,30 @@
+#gallery{
+	h1{	
+		.bg-media-manual(font-size, 3rem, 4rem, 4rem, 4rem, 3.25rem, 3.25rem, 4rem, 4rem, 5rem);
+		.bg-media-manual(margin-bottom, 1rem, 0, 0, 0, 0, 0.5rem, 0, 0, 0);
+		.bg-media-manual(margin-top, 1rem, 0, 0, 0, 0, 1rem, 0, 0, 0);
+		color: #9e0000;
+		font-family: "Times New Roman", Times, serif;
+		font-weight:bold;
+		text-align:center;
+	}
+	#items{
+		.make-row();
+		#item{
+			.make-sm-column(3);
+			.bg-media-manual(@property: padding, @320: 100%, @360: 100%, @460: 100%, @560: 100%, @660: 225px, @770: 225px, @960: 270px, @1024: 300px, @1170: 2rem);
+			.panel{
+				.panel;
+				.panel-default;
+				.panel-body{
+					.panel-body;
+					a{
+						img{
+							.center-block;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>Lite</name>
+	<version>2.0</version>
+	<creationDate>1/14/2014</creationDate>
+	<author>Anthony Fuentes and Richard Silvia</author>
+	<authorEmail>contact@ineedawebsite.us</authorEmail>
+	<copyright>Copyright (C) 2014 MNDYRS. All rights reserved.</copyright>
+	<description>I wonder why its so lite?</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>less</folder>
+		<folder>fonts</folder>
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>menu</position>
+		<position>topmenu</position>
+		<position>header</position>
+		<position>cart</position>
+		<position>search</position>
+		<position>topmenuright</position>
+		<position>footer</position>
+	</positions>
+</extension>

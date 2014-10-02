@@ -1,0 +1,58 @@
+.enc-container{
+	margin-right: auto;
+	margin-left: auto;
+	@media (min-width: @enc-media-sm){
+		width: @enc-media-sm;
+	}
+	@media (min-width: @enc-media-md){
+		width: @enc-media-md;
+	}
+	@media (min-width: @enc-media-lg){
+		width: @enc-media-lg;
+	}
+}
+
+.enc-fluid-container(@width){
+	width: @width;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enc-make-row(){
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enc-make-xs-col(@columns){
+	position: relative;
+	float: left;
+	width: percentage((@columns / @enc-grid-columns));
+	min-height: 1px;
+}
+
+.enc-make-sm-col(@columns){
+  position: relative;
+  min-height: 1px;
+  @media (min-width: @enc-media-sm){
+    float: left;
+    width: percentage((@columns / @enc-grid-columns));
+  }
+}
+
+.enc-make-md-col(@columns){
+  position: relative;
+  min-height: 1px;
+  @media (min-width: @enc-media-md){
+    float: left;
+    width: percentage((@columns / @enc-grid-columns));
+  }
+}
+
+.enc-make-lg-col(@columns){
+  position: relative;
+  min-height: 1px;
+  @media (min-width: @enc-media-lg){
+    float: left;
+    width: percentage((@columns / @enc-grid-columns));
+  }
+}

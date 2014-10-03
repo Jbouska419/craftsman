@@ -14,7 +14,19 @@ body{
 			width: 90%;
 			margin: 0 auto;
 			background: url(../../../images/container_bg.png);
-	
-		}
+			select{
+				.enc-media-width(width,
+				@240: 96px, @320: 100px, @360: 100px, @480: 94px, @533: 94px, @568: 94px,
+				@600: 94px, @640: 94px, @768: 94px, @800: 94px, @853: 94px, @966: 94px, 
+				@1024: 94px, @1280: 94px, @1366: 94px, @1400: 94px, @1680: 94px, @1920: 94px);
+			}
+			.hikashop_cart_empty_footer{
+				display: none;		
+			}
+			#hikashop_checkout_next_button{
+				.enc-center-block;
+			}
+
 	}
+}
 }

@@ -7,7 +7,10 @@
 			form{
 				.hikashop_checkout_address{
 					.hikashop_checkout_address_left_part{
-						width: 50%;
+						.enc-media-width(width,
+						@240: 100%, @320: 100%, @360: 100%, @480: 100%, @533: 100%, @568: 100%,
+						@600: 100%, @640: 100%, @768: 50%, @800: 50%, @853: 50%, @966: 50%, 
+						@1024: 50%, @1280: 50%, @1366: 50%, @1400: 50%, @1680: 50%, @1920: 50%);
 						float: left;
 						padding-top: 10px;
 						fieldset{
@@ -50,7 +53,10 @@
 						}
 					}
 					#hikashop_checkout_address_right_part{
-						width: 50%;
+						.enc-media-width(width,
+						@240: 100%, @320: 100%, @360: 100%, @480: 100%, @533: 100%, @568: 100%,
+						@600: 100%, @640: 100%, @768: 50%, @800: 50%, @853: 50%, @966: 50%, 
+						@1024: 50%, @1280: 50%, @1366:50%, @1400: 50%, @1680: 50%, @1920: 50%);
 						float: left;
 						padding-top: 10px;
 						fieldset{
@@ -98,7 +104,7 @@
 						legend{
 							font-weight: bold;
 							color: white;
-							background-color: red;
+							background-color: #9E0000;
 							height: 25px;
 							text-align: center;
 							width: 100%;
@@ -201,13 +207,13 @@
 
 								}
 								.hikashop_cart_subtotal_title{
-
+									float: left;
 								}
 								.hikashop_cart_subtotal_value{
 
-								}
+								}	
 								.hikashop_cart_shipping_title{
-
+									float: left;
 								}
 								.hikashop_cart_shipping_value{
 									.hikashop_checkout_cart_shipping{
@@ -215,7 +221,7 @@
 									}
 								}
 								.hikashop_cart_total_title{
-
+									float: left;
 								}
 								.hikashop_cart_total_value{
 									.hikashop_checkout_cart_final_total{
